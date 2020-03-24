@@ -1,0 +1,93 @@
+* {
+  font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  font-family: 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #eee;
+}
+
+.container {
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.card {
+  height: 370px;
+  margin-top: auto;
+  margin-bottom: auto;
+  width: 400px;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+#page-top.page-login {
+  background-image: url(./../images/11_51_51-thisisengineering-raeng-0jTZTMyGym8-unsplash-1920.jpg);
+  background-size: cover;
+}
+
+#page-top.page-login #wrapper {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
+
+#page-top.page-login .card a {
+  color: #8bb0dd;
+}
+
+#page-top.page-login .card .links {
+  color: white;
+}
+
+.input-group-prepend span {
+  width: 50px;
+  background-color: #8bb0dd;
+  color: black;
+  border: 0 !important;
+}
+
+input:focus {
+  outline: 0 0 0 0 !important;
+  -webkit-box-shadow: 0 0 0 0 !important;
+          box-shadow: 0 0 0 0 !important;
+}
+
+.remember {
+  color: white;
+}
+
+.remember input {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+
+.login_btn {
+  color: black;
+  background-color: #8bb0dd;
+  width: 100px;
+}
+
+.login_btn:hover {
+  color: black;
+  background-color: white;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,55 @@
+#page-top.page-login {
+    background-image: url(./../images/11_51_51-thisisengineering-raeng-0jTZTMyGym8-unsplash-1920.jpg);
+    background-size: cover;
+
+    #wrapper {
+        flex-direction: column;
+        justify-content: space-around;
+        display: flex;
+        height: 100%;
+    }
+
+    .card {
+        a {
+            color: #8bb0dd;
+        }
+
+        .links {
+            color: white;
+        }
+    }
+}
+
+.input-group-prepend span {
+    width: 50px;
+    background-color: #8bb0dd;
+    color: black;
+    border: 0 !important;
+}
+
+input:focus {
+    outline: 0 0 0 0 !important;
+    box-shadow: 0 0 0 0 !important;
+}
+
+.remember {
+    color: white;
+}
+
+.remember input {
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.login_btn {
+    color: black;
+    background-color: #8bb0dd;
+    width: 100px;
+}
+
+.login_btn:hover {
+    color: black;
+    background-color: white;
+}
