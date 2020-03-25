@@ -1,0 +1,20 @@
+#page-top.page-login {
+    background-size: cover;
+
+    #wrapper {
+        flex-direction: column;
+        justify-content: space-around;
+        display: flex;
+        height: 100%;
+    }
+
+    .card {
+        a {
+            color: #8bb0dd;
+        }
+
+        .links {
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,32 @@
+#page-top.page-dashboard {
+    background-image: url(./../images/11_51_51-thisisengineering-raeng-0jTZTMyGym8-unsplash-1920-blur.jpg);
+
+    #wrapper > .container {
+        padding-top: 200px;
+    }
+
+    #wrapper > div > div > div > div > div.card-body.pb-0.text-white > div > i.fa {
+        font-size: 2rem;
+    }
+}
+
+.badge-container--text {
+    font-size: 1.2rem;
+    border-left: 1px solid grey;
+    margin-left: 1rem;
+}
+
+@media (min-width: 768px) {
+    #navbarCollapse {
+        padding: 0 1rem;
+    }
+
+    #navbarCollapse > ul {
+        width: 100%;
+    }
+
+    #navbarCollapse > ul > li:nth-child(4) {
+        flex-grow: 1;
+        text-align: right;
+    }
+}
