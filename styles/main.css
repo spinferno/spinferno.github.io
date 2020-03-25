@@ -30,11 +30,11 @@ body {
   background-color: rgba(0, 0, 0, 0.5) !important;
 }
 
-#page-top.page-login {
+#page-top {
   background-size: cover;
 }
 
-#page-top.page-login #wrapper {
+#page-top #wrapper {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -47,11 +47,11 @@ body {
   height: 100%;
 }
 
-#page-top.page-login .card a {
+#page-top .card a {
   color: #8bb0dd;
 }
 
-#page-top.page-login .card .links {
+#page-top .card .links {
   color: white;
 }
 
