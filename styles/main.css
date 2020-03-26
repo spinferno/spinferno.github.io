@@ -55,6 +55,22 @@ body {
   color: white;
 }
 
+.breadcrumb-container .breadcrumb {
+  background-color: transparent;
+}
+
+.breadcrumb-container .breadcrumb a {
+  color: #8bb0dd;
+}
+
+.breadcrumb-container .breadcrumb .breadcrumb-item + .breadcrumb-item::before {
+  display: inline-block;
+  padding-right: .5rem;
+  color: lightblue;
+  content: "\f054";
+  font: normal normal normal 14px/1 FontAwesome;
+}
+
 #page-top.page-login {
   background-image: url(./../images/11_51_51-thisisengineering-raeng-0jTZTMyGym8-unsplash-1920.jpg);
   background-size: cover;
@@ -153,8 +169,8 @@ input:focus {
   background-image: url(./../images/11_51_51-thisisengineering-raeng-0jTZTMyGym8-unsplash-1920-blur.jpg);
 }
 
-#page-top.page-reports #wrapper > .container {
-  padding-top: 200px;
+#page-top.page-reports #wrapper > *:nth-child(2) {
+  margin-top: 101px;
 }
 
 #page-top.page-reports #wrapper > div > div > div > div > div.card-body.pb-0.text-white > div > i.fa {

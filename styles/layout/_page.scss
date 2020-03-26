@@ -18,3 +18,24 @@
         }
     }
 }
+
+.breadcrumb-container {
+    .breadcrumb {
+        background-color: transparent;
+        // padding-top: 2rem;
+
+        a {
+            color: #8bb0dd;
+        }
+
+        .breadcrumb-item+.breadcrumb-item::before {
+            display: inline-block;
+            padding-right: .5rem;
+            color: lightblue;
+            //content: ">";
+            content: "\f054";
+            font: normal normal normal 14px/1 FontAwesome;
+        }
+
+    }
+}
