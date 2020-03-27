@@ -18,6 +18,11 @@
             color: white;
         }
     }
+
+    #wrapper > .container {
+        height: 750px;
+        max-height: 750px;
+    }
 }
 
 .input-group-prepend span {

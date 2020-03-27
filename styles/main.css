@@ -101,6 +101,11 @@ h3 {
   color: white;
 }
 
+#page-top.page-login #wrapper > .container {
+  height: 750px;
+  max-height: 750px;
+}
+
 .input-group-prepend span {
   width: 50px;
   background-color: #8bb0dd;
