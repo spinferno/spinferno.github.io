@@ -20,6 +20,12 @@
     margin-left: 1rem;
 }
 
+#embedContainer {
+    height: 796px;
+    width: 100%;
+    max-width: 1435px;
+}
+
 @media (min-width: 768px) {
     #navbarCollapse {
         padding: 0 1rem;

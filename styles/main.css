@@ -196,6 +196,12 @@ input:focus {
   margin-left: 1rem;
 }
 
+#embedContainer {
+  height: 796px;
+  width: 100%;
+  max-width: 1435px;
+}
+
 @media (min-width: 768px) {
   #navbarCollapse {
     padding: 0 1rem;
@@ -361,11 +367,5 @@ input:focus {
 #page-top.page-admin #wrapper > div > div > div > div > div.card-body.pb-4.text-white.text-center > div.container.mt-100 > div > div > div {
   background-color: transparent !important;
   height: auto;
-}
-
-#embedContainer {
-  height: 796px;
-  width: 100%;
-  max-width: 1435px;
 }
 /*# sourceMappingURL=main.css.map */
