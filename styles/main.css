@@ -362,4 +362,10 @@ input:focus {
   background-color: transparent !important;
   height: auto;
 }
+
+#embedContainer {
+  height: 796px;
+  width: 100%;
+  max-width: 1435px;
+}
 /*# sourceMappingURL=main.css.map */
