@@ -18,7 +18,11 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
     <link href="/styles/main.css" rel="stylesheet" />
-
+    <script type="text/javascript" src="/scripts/powerbi.min.js"></script>
+    <script type="text/javascript" src="/scripts/power-bi-integration.js"></script>
+    <script type="text/javascript">
+        loadReport("50e30af1-7812-4380-b727-04af4d8210c5");
+    </script>
 </head>
 
 <body id="page-top" class="page-reports">
@@ -85,8 +89,7 @@
                             </ol>
                         </nav>
                         <div class="card-body pb-4 text-white text-center">
-                            <img src="images/Newconnections.JPG" width="1448" height="804"
-                                class="img-fluid">
+                            <div id="embedContainer">Loading report...</div>
                         </div>
                         <div class="card-navigation-container text-right w-100 p-3">
                             <a href="reports.html"><i class="fa fa-chevron-left" aria-hidden="true"></i> back to Reports menu</a>
