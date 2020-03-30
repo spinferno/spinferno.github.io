@@ -1,4 +1,4 @@
-let authProxyUrl = "http://esta-pbi-auth-proxy.azurewebsites.net/api/GetEmbedConfig";
+let authProxyUrl = "https://esta-pbi-auth-proxy.azurewebsites.net/api/GetEmbedConfig";
 
 function loadReport(embedReportId) {
     $.get(authProxyUrl, { reportId: embedReportId } )
