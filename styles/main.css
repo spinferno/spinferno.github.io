@@ -202,6 +202,23 @@ input:focus {
   max-width: 1435px;
 }
 
+#page-top .card a.toggler {
+  color: blue;
+}
+
+.history-item > span {
+  line-height: 31px;
+}
+
+.date-container {
+  background-color: white;
+  color: black;
+}
+
+.date-container .collapse .history-item:nth-of-type(odd) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
 @media (min-width: 768px) {
   #navbarCollapse {
     padding: 0 1rem;
