@@ -1,13 +1,24 @@
-let authProxyUrl = "https://esta-pbi-auth-proxy.azurewebsites.net/api/GetEmbedConfig";
+let authProxyUrl = "/api/GetEmbedConfig";
 
-function loadReport(embedReportId) {
+function loadReport(embedReportId, replacementImagePath) {
     $.get(authProxyUrl, { reportId: embedReportId } )
     .done(function(embedConfig) {
         embedReport(embedConfig.token);
     })
     .fail(function(error) {
+        setImageAsReport(replacementImagePath);
         console.log(error);
     });
+}
+
+function setImageAsReport(replacementImagePath) {
+    var reportContainer = $('#embedContainer')[0];
+    var reportImage = document.createElement('img');
+    reportImage.width = 1045;
+    reportImage.height = 780;
+    reportImage.classList.add('img-fluid');
+    reportImage.src = replacementImagePath;
+    reportContainer.replaceWith(reportImage);
 }
 
 function embedReport(embedConfig) {

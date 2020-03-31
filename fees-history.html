@@ -18,7 +18,11 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
     <link href="/styles/main.css" rel="stylesheet" />
-
+    <script type="text/javascript" src="/scripts/powerbi.min.js"></script>
+    <script type="text/javascript" src="/scripts/power-bi-integration.js"></script>
+    <script type="text/javascript">
+        loadReport("09bf4423-859a-49b7-9bda-9cb559c99a1b", "/images/FeesandChargesHistory.JPG");
+    </script>
 </head>
 
 <body id="page-top" class="page-reports">
@@ -85,8 +89,7 @@
                             </ol>
                         </nav>
                         <div class="card-body pb-4 text-white text-center">
-                            <img src="images/FeesandChargesHistory.JPG" width="1045" height="780"
-                                class="img-fluid">
+                            <div id="embedContainer" class="mx-auto">Loading report...</div>
                         </div>
                         <div class="card-navigation-container text-right w-100 p-3">
                             <a href="reports.html"><i class="fa fa-chevron-left" aria-hidden="true"></i> back to Manage Fees</a>
