@@ -48,7 +48,6 @@ h3 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 100%;
 }
 
 #page-top .card a {
@@ -204,10 +203,6 @@ input:focus {
 
 #page-top.page-reports {
   background-image: url(./../images/11_51_51-thisisengineering-raeng-0jTZTMyGym8-unsplash-1920-blur.jpg);
-}
-
-#page-top.page-reports #wrapper > *:nth-child(2) {
-  margin-top: 101px;
 }
 
 #page-top.page-reports #wrapper > div > div > div > div > div.card-body.pb-0.text-white > div > i.fa {

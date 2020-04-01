@@ -2,7 +2,7 @@
     background-image: url(./../images/11_51_51-thisisengineering-raeng-0jTZTMyGym8-unsplash-1920-blur.jpg);
 
     #wrapper > *:nth-child(2) {
-        margin-top: 101px;
+    //    margin-top: 101px;
     }
 
     #wrapper > div > div > div > div > div.card-body.pb-0.text-white > div > i.fa {
@@ -12,6 +12,10 @@
     #wrapper > div > div > div > .card {
         height: auto;
     }
+
+    // .card.card__sm {
+    //     margin-top: 97px;
+    // }
 }
 
 .badge-container--text {
