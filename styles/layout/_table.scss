@@ -1,0 +1,30 @@
+.table-responsive .table {
+    
+    &__sm {
+        background-color: #9dd2ff;
+        margin-bottom: 0;
+
+        thead, tbody {
+
+            > tr {
+                th, td {
+                    padding: 0.2rem 0.75rem;
+                    border: none;
+                }
+            }            
+        }
+
+        tbody > * {          
+                
+            &:nth-of-type(odd) {
+                background-color: #d5eaff;
+            }
+        }
+
+        .text-danger {
+            background-color: white;
+            border-radius: 12px;
+            padding: 0 0.4rem 0 0.3rem;
+        }
+    }
+}

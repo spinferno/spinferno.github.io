@@ -75,6 +75,34 @@ h3 {
   font: normal normal normal 14px/1 FontAwesome;
 }
 
+#wrapper > div > .row > div > .card.card__sm {
+  width: 36rem;
+}
+
+.card__sm .card-header {
+  padding: 0.5rem;
+}
+
+.table-responsive .table__sm {
+  background-color: #9dd2ff;
+  margin-bottom: 0;
+}
+
+.table-responsive .table__sm thead > tr th, .table-responsive .table__sm thead > tr td, .table-responsive .table__sm tbody > tr th, .table-responsive .table__sm tbody > tr td {
+  padding: 0.2rem 0.75rem;
+  border: none;
+}
+
+.table-responsive .table__sm tbody > *:nth-of-type(odd) {
+  background-color: #d5eaff;
+}
+
+.table-responsive .table__sm .text-danger {
+  background-color: white;
+  border-radius: 12px;
+  padding: 0 0.4rem 0 0.3rem;
+}
+
 #page-top.page-login {
   background-image: url(./../images/11_51_51-thisisengineering-raeng-0jTZTMyGym8-unsplash-1920.jpg);
   background-size: cover;
