@@ -38,7 +38,6 @@
                 </div>
             </div>
 
-
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -116,21 +115,36 @@
             <div class="row">
                 <div class="col-12 mb-3 mx-auto">
                     <div class="card w-100">
-                        <div class="card-header bg-light d-flex justify-content-between align-items-center border-bottom-0">
-                            <h4>Full Report</h4>
+                        <div
+                            class="card-header bg-light d-flex justify-content-between align-items-center border-bottom-0">
+                            <h4>New Connections Report</h4>
                         </div>
-                        <nav aria-label="breadcrumb" class="breadcrumb-container">
-                            <ol class="breadcrumb mb-0">
-                                <li class="breadcrumb-item"><a href="reports.html">Reports</a></li>
-                                <li class="breadcrumb-item active text-white" aria-current="page">Full Report</li>
-                            </ol>
-                        </nav>
+                        <div class="activity-bar d-flex justify-content-between">
+                            <div class="activity-bar--breadcrumb">
+                                <nav aria-label="breadcrumb" class="breadcrumb-container">
+                                    <ol class="breadcrumb mb-0">
+                                        <li class="breadcrumb-item"><a href="reports.html">Reports</a></li>
+                                        <li class="breadcrumb-item active text-white" aria-current="page">New Connections Report</li>
+                                    </ol>
+                                </nav>
+                            </div>
+                            <div class="activity-bar--actions pt-2 pr-4">
+                                <a href="" class="btn btn-primary btn-sm text-white mr-2" role="button">
+                                    <i class="fa fa-download" aria-hidden="true"></i> Download
+                                </a>                                
+                                <a href="" class="btn btn-primary btn-sm text-white" role="button">
+                                    <i class="fa fa-print" aria-hidden="true"></i> Print
+                                </a>
+                            </div>                          
+                        </div>
+                        
                         <div class="card-body pb-4 text-white text-center">
                             <div id="embedContainer" class="mx-auto">Loading report...</div>
                         </div>
                         <div class="card-navigation-container text-right w-100 p-3">
-                            <a href="reports.html"><i class="fa fa-chevron-left" aria-hidden="true"></i> back to Reports
-                                menu</a>
+                            <a href="reports.html">
+                                <i class="fa fa-chevron-left" aria-hidden="true"></i> back to Reports menu
+                            </a>
                         </div>
                     </div>
                 </div>
